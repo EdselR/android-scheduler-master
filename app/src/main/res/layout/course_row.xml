@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:elevation="8dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/courseNameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Science 1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/courseTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M W F. 4.00 - 5.30"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/profNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prof.Baldwin"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
