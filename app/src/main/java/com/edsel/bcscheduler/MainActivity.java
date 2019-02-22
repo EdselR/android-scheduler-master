@@ -151,7 +151,6 @@ public class MainActivity extends AppCompatActivity {
     private class HttpGetTask extends AsyncTask<String,Integer,String> {
 
 
-
         protected String doInBackground(String... params) {
             String queryString = params[0];
             // Set up variables for the try block that need to be closed in the finally block.
